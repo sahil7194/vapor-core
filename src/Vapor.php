@@ -4,6 +4,8 @@ namespace Laravel\Vapor;
 
 class Vapor
 {
+    use HasLambdaContext;
+
     /**
      * Determine whether the environment is Vapor.
      */
